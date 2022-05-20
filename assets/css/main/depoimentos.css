@@ -1,4 +1,7 @@
 .depoimentos{
+    padding-top: 0;
+}
+.depoimentos__div{
     padding: 4rem;
     background: #C3191908;
     text-align: center;
@@ -12,4 +15,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.depoimentos__avatar{
+    margin-bottom: 1rem;
+}
+.depoimentos__nome{
+    color: var(--preto);
+}
+.depoimentos__profissao{
+    color: var(--gray-500);
 }
