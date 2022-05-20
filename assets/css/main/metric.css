@@ -1,3 +1,6 @@
+.metric{
+    padding-top: 0;
+}
 .metric__lista{
     display: flex;
     justify-content: space-between;

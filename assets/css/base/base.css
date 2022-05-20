@@ -9,6 +9,8 @@ body{
 .container{
     padding-left: calc( (80/1440)*100% );
     padding-right: calc( (80/1440)*100% );
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 /* estilos das fontes  */
