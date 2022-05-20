@@ -1,0 +1,35 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+.vagas-abertas__design{
+    width:calc((768/1216)*100%) ;
+}
+.vagas-abertas__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.vagas-abertas__titulo{
+    color: var(--preto);
+    
+    
+}
+.vagas-abertas__item{
+    display: flex;
+    padding: 24px 24px 28px 24px;
+    flex-direction: column;
+
+    row-gap: 1.5rem;
+    
+    border: 1px solid var(--gray-200);
+    border-radius: 1rem;
+    
+}
+
+.item__description{
+    display: flex;
+    gap: 1.5rem;
+}

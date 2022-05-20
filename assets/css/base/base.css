@@ -5,10 +5,11 @@ body{
     font-family: var(--familia-fonte);
     width: 100%;
     height: 100vh;
+    box-sizing: border-box;
 }
 .container{
-    padding-left: calc( (80/1440)*100% );
-    padding-right: calc( (80/1440)*100% );
+    padding-left: calc( (112/1440)*100% );
+    padding-right: calc( (112/1440)*100% );
     padding-top: 6rem;
     padding-bottom: 6rem;
 }

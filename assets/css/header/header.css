@@ -1,13 +1,13 @@
 
 .header{
     
-    padding-left: calc( (80/1440)*100% );
-    padding-right: calc( (80/1440)*100% );
+    padding-left: calc( (112/1440)*100% );
+    padding-right: calc( (112/1440)*100% );
     height: 80px;
-    
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 9.79% auto 1fr;
     align-items: center;
-
+    
 }
 .header__link{
     margin-right: 2rem;
@@ -17,6 +17,11 @@
     margin-right: 0;
 }
 .header__navigation{
-    margin-right: calc((380/1280)*100%);
-    margin-left: calc((119/1280)*100%);
+    grid-column: 3 / 4;
 }
+.header__buttons{
+    justify-self: flex-end;
+    grid-column: 4 / 5;
+}
+
+

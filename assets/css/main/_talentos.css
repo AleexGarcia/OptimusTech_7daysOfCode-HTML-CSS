@@ -1,0 +1,17 @@
+.talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+.talentos__text{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.talentos__img{
+    width: calc((1216/1216)*100%);
+}
