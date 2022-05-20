@@ -1,0 +1,87 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+body{
+    background-color: var(--branco);
+    font-family: var(--familia-fonte);
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    padding-left: calc( (80/1440)*100% );
+    padding-right: calc( (80/1440)*100% );
+}
+
+/* estilos das fontes  */
+
+.normal{
+    font-weight: 400;
+}
+.medium{
+    font-weight: 500;
+}
+.semibold{
+    font-weight: 600;
+}
+
+.text-md{
+
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: var(--gray-500);
+
+}
+
+.text-sm{
+   
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: var(--vinho);
+}
+.text-x1{
+ 
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: var(--gray-500);
+
+}
+.text-lg{
+    
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: var(--preto);
+
+}
+.text-sm{
+  
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0em;
+
+}
+.display-x1{
+  
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: var(--vinho);
+
+}
+.display-lg{
+
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: var(--preto);
+
+}
+.display-md{
+
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: var(--preto);
+}

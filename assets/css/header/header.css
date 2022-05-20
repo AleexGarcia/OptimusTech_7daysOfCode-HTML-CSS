@@ -1,0 +1,22 @@
+
+.header{
+    
+    padding-left: calc( (80/1440)*100% );
+    padding-right: calc( (80/1440)*100% );
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+
+}
+.header__link{
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.header__link:last-child{
+    margin-right: 0;
+}
+.header__navigation{
+    margin-right: calc((380/1280)*100%);
+    margin-left: calc((119/1280)*100%);
+}
